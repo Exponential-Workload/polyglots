@@ -42,7 +42,7 @@ To cover up any visible code, with css, set a container's height & width to cove
         ```
 
     ??? abstract "Attribution"
-        This example turns [this Lua-JS Polyglot](/polyglots/lua-js#eval-based-vanilla-lua-51js), which is based on [this Luau-JS Polyglot](/polyglots/lua-js#typeof-based-luaujs) by [@jack5079](https://github.com/jack5079), into a Lua-HTML-JS Polyglot.
+        This example turns [this Lua-JS Polyglot](/polyglots/lua-js#variable-based-vanilla-lua-51js), which is based on [this Luau-JS Polyglot](/polyglots/lua-js#typeof-based-luaujs) by [@jack5079](https://github.com/jack5079), into a Lua-HTML-JS Polyglot.
 
 ??? note "Lua-JS-HTML Example"
 
@@ -63,19 +63,19 @@ To cover up any visible code, with css, set a container's height & width to cove
     === "Lua"
 
         ```lua
-        _=[[/*]]--[=[<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>]=]print('lua here');return;--*/]]; eval('console.log(`js here`)');
+        _=[[/*]]--[=[<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>]=]print('lua here');return;--*/]]; console.log(`js here`);
         ```
 
     === "JS"
 
         ```js
-        _=[[/*]]--[=[<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>]=]print('lua here');return;--*/]]; eval('console.log(`js here`)');
+        _=[[/*]]--[=[<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>]=]print('lua here');return;--*/]]; console.log(`js here`);
         ```
 
     === "HTML"
 
         ```html
-        _=[[/*]]--[=[<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>]=]print('lua here');return;--*/]]; eval('console.log(`js here`)');
+        _=[[/*]]--[=[<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>]=]print('lua here');return;--*/]]; console.log(`js here`);
         ```
 
     or
@@ -83,20 +83,20 @@ To cover up any visible code, with css, set a container's height & width to cove
     === "Lua"
 
         ```lua
-        _=[[/*]]print('lua here');return;--*/]]; eval('console.log(`js here`)');//<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>
+        _=[[/*]]print('lua here');return;--*/]]; console.log(`js here`);//<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>
         ```
 
     === "JS"
 
         ```js
-        _=[[/*]]print('lua here');return;--*/]]; eval('console.log(`js here`)');//<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>
+        _=[[/*]]print('lua here');return;--*/]]; console.log(`js here`);//<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>
         ```
 
     === "HTML"
 
         ```html
-        _=[[/*]]print('lua here');return;--*/]]; eval('console.log(`js here`)');//<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>
+        _=[[/*]]print('lua here');return;--*/]]; console.log(`js here`);//<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>
         ```
 
     ??? abstract "Attribution"
-        This example turns [this Lua-JS Polyglot](/polyglots/lua-js#eval-based-vanilla-lua-51js), which is based on [this Luau-JS Polyglot](/polyglots/lua-js#typeof-based-luaujs) by [@jack5079](https://github.com/jack5079), into a Lua-HTML-JS Polyglot.
+        This example turns [this Lua-JS Polyglot](/polyglots/lua-js#variable-based-vanilla-lua-51js), which is based on [this Luau-JS Polyglot](/polyglots/lua-js#typeof-based-luaujs) by [@jack5079](https://github.com/jack5079), into a Lua-HTML-JS Polyglot.
