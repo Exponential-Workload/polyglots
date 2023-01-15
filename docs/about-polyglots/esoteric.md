@@ -6,7 +6,7 @@ One such example is, say you want to load some code from a memorable URL (exampl
 In that case, you might decide to use a Lua-[HTML](/polyglots/html) Polyglot.
 
 Another use-case would be, say you have a client API at https://example.com/api & want multiple clients to be able to load it from that URL (say `<script src="https://example.com/api" />` and `loadstring(game:HttpGetAsync('https://example.com/api'))()`), you could use a [Lua-JS](/polyglots/lua-js/) Polyglot.<br/>
-Now say you want browsers visiting this URL to not completely break: In that case, you may decide to use a [Lua-JS](/polyglots/lua-js)-[HTML](/polyglots/html) Polyglot.
+Now say you want browsers visiting this URL to redirect to your documentation (or for that url to be your documentation): In that case, you may decide to use a [Lua-JS](/polyglots/lua-js)-[HTML](/polyglots/html) Polyglot.
 
 ## Is this mostly esoteric?
 Yes. There are very few practical use-cases for Polyglots.
