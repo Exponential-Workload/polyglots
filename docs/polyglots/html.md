@@ -41,9 +41,6 @@ To cover up any visible code, with css, set a container's height & width to cove
         /*<html><head><style>.contentcontainer{position:fixed;top:0;left:0;width:100vw;height:100vh;background:inherit;color:inherit;}</style></head><body><div class="contentcontainer">html here</div></body></html>*/console.log('Hello, World!');
         ```
 
-    ??? abstract "Attribution"
-        This example turns [this Lua-JS Polyglot](/polyglots/lua-js#variable-based-vanilla-lua-51js), which is based on [this Luau-JS Polyglot](/polyglots/lua-js#typeof-based-luaujs) by [@jack5079](https://github.com/jack5079), into a Lua-HTML-JS Polyglot.
-
 ??? note "Lua-JS-HTML Example"
 
     === "Lua"
