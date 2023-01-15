@@ -18,7 +18,7 @@ Here's a collection of several Lua-JS Polyglots.
 ??? abstract "Attribution"
     This polyglot was created by [@YieldingExploiter](https://github.com/YieldingExploiter)
 
-## eval-Based Vanilla Lua 5.1/JS
+## Variable-Based Vanilla Lua 5.1/JS
 
 === "Lua"
 
