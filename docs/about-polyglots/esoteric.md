@@ -1,4 +1,6 @@
-# Is this completely esoteric?
+# Is this esoteric?
+
+## Is this completely esoteric?
 
 Not completely; however there are only a few normal use-cases for polyglots outside of the esoteric realm.
 
