@@ -16,7 +16,7 @@ Here's a collection of several Lua-JS Polyglots.
     ```
 
 ??? abstract "Attribution"
-    This polyglot was created by [@YieldingExploiter](https://github.com/YieldingExploiter)
+    This polyglot was created by [@Exponential-Workload](https://github.com/Exponential-Workload)
 
 ## Variable-Based Vanilla Lua 5.1/JS
 
